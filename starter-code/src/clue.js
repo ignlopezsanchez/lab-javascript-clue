@@ -181,7 +181,6 @@ function pickMistery() {
 }
 
 function revealMistery(pickMistery) {
-    console.log(pickMistery[2])
   return ("" + pickMistery[0].first_name + " " + pickMistery[0].last_name + " killed Mr.Boddy using the " + pickMistery[1].name + " in the " + (pickMistery[2].name) + "!!!!"
   );
 }
